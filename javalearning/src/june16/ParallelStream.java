@@ -10,6 +10,5 @@ public class ParallelStream {
         myNumbers.add("bom");
         myNumbers.add("tex");
         myNumbers.parallelStream().forEach(i->System.out.println(i+" "+Thread.currentThread().getName()));
-        myNumbers.forEach(i->System.out.println(i));
     }
 }
